@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess-a-nator</title>
+</head>
+
+<body>
+    <h1 class="title">Guess-a-nator</h1>
+    <p class="instructions">Pick a number bewteen 1 and 1,000.<br />I'll try to guess your number.<br /><span class="smaller">(Positive integers only, please!)</span></p>
+    <button id="letsPlay" type="button">Okay! Let's play!</button>
+    <dialog id="game">
+        <div class="wrapper">
+            <p id="haveYourNumber">Do you have your number?</p>
+            <p id="gotIt">Hurray! I got it in <span id="count">x</span> guesses!</p>
+            <div id="formWrapper">
+                <p id="guessText">Okay! My first guess is 500.<br />How'd I do?</p>
+                <form id="gameForm" method="dialog">
+                    <button type="submit" value="higher">Higher</button>
+                    <button type="submit" value="lower">Lower</button>
+                    <button type="submit" value="gotIt">Got it!</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+  </body>
+</html>
