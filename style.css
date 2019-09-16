@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Roboto|Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font: 4vw/1.2 "Quattrocento Sans", "Roboto", Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    padding: .1rem;
+    font: 10vw/1.1 "Work Sans", sans-serif;
+}
+
+dialog {
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, .7);
+}
+
+p {
+    padding: .25rem;
+}
+
+.wrapper {
+    height: 100%;
+    padding: .35rem;
+    margin: auto;
+}
+
+#gotIt {
+    display: none;
+}
+
+.smaller {
+    font-size: 75%;
+}
+
+button {
+    color: white;
+    background:rgba(0, 0, 0, .7);
+    padding: .35rem;
+    margin: .35rem;
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, .2)
+}
