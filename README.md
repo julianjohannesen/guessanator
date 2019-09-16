@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Guess-a-nator
 A number guessing game that illustrates the power of binary search.
 
