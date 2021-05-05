@@ -6,6 +6,8 @@ permalink: /index.html
 A number guessing game that illustrates the power of binary search.
 
 
+Guess-a-nator is hosted here: https://julianjohannesen.github.io/guessanator/
+
 Guess-a-nator is a simple number guessing game that illustrates the power of binary search. 
 
 The player picks a number between 1 and 1,000 and the guess-a-nator attempts to guess their number. Because the player is required to indicated whether guess-a-nator's guess is too high, too low, or the correct number, guess-a-nator is able to guess the player's number in no more than 10 guesses. 
